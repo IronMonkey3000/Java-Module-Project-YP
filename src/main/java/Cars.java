@@ -1,9 +1,9 @@
 public class Cars {
-    String name;
-    int speed;
-    Cars(String carName, int carSpeed){
-        this.name = carName;
-        this.speed = carSpeed;
-    }
+public final String name;
+public final int speed ;
 
+public Cars(String name, int speed) {
+    this.name = name;
+    this.speed = speed;
+}
 }
